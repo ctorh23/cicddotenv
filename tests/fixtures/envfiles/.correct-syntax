@@ -1,0 +1,10 @@
+varOne=First
+
+var2=
+#comment
+VarThree=3rd
+
+_var4 = "test "
+var5=!@#$%^&*()_+=-`~.,'"?<>/|\
+
+var_digit=3
