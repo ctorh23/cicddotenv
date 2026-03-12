@@ -18,7 +18,7 @@ final class EnvVarException extends \DomainException implements ExceptionInterfa
 
     public static function wrongDefinition(string $envFileLine): self
     {
-        return new self(sprintf('The definition of the environment variable "%s" is missing equals-sign.', $envFileLine));
+        return new self(sprintf('The definition of the environment variable "%s" must contains equals-sign.', $envFileLine));
     }
 
     public static function wrongName(string $varName): self
