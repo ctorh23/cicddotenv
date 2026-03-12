@@ -1,5 +1,5 @@
 {
-    "name": "ctorh23/dotenv",
+    "name": "ctorh23/cicddotenv",
     "type": "library",
     "description": "Loads environment variable definitions from a file into the $_ENV superglobal.",
     "license": "MIT",
