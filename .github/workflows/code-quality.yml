@@ -31,10 +31,10 @@ jobs:
         run: composer install --no-interaction --prefer-dist
       
       - name: Run PHP-CS-Fixer
-        run: tools/php-cs-fixer fix --dry-run --diff
+        run: tools/PHP-CS-Fixer/php-cs-fixer fix --dry-run --diff
       
       - name: Run PHPStan
-        run: tools/phpstan analyse
+        run: tools/PHPStan/phpstan analyse
       
       - name: Run PHPUnit
-        run: tools/phpunit
+        run: tools/PHPUnit/phpunit
