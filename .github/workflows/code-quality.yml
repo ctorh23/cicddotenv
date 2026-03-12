@@ -25,7 +25,7 @@ jobs:
       
       - name: Install PHIVE tools
         run: |
-          phive install --force-accept-unsigned
+          phive --no-progress install --trust-gpg-keys 4AA394086372C20A,E82B2FB314E9906E,51C67305FFC2E5C0
       
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist
